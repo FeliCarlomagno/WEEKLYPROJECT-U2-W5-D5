@@ -85,15 +85,34 @@ nav {
   margin-top: 3em;
 }
 
-.top-left-top {
+#top-sup {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.top-sup-left,
+.top-sup-bottom,
+.top-sup-right {
+  margin: 2em 0;
   display: flex;
 }
 
-.top-left-top img {
+.top-sup-left img,
+.top-sup-bottom img {
   border-radius: 100%;
   width: 2em;
 }
 
+.top-sup-right img {
+  border-radius: 10%;
+  width: 2em;
+}
+
+.top-sup-left p,
+.top-sup-bottom p,
+.top-sup-right p {
+  margin: 0.7em 0;
+}
 .img-span-container {
   display: flex;
   align-items: center;
@@ -101,4 +120,24 @@ nav {
 
 .img-span-container img {
   margin-right: 10px;
+}
+
+.img-span-container span {
+  font-weight: 450;
+}
+
+.img-span-container p {
+  font-weight: bold;
+}
+
+.p-bold {
+  font-weight: bold;
+  width: 18em;
+}
+
+.number-container {
+  font-size: 2em;
+  color: #80808052;
+  font-weight: bold;
+  margin-right: 1em;
 }
