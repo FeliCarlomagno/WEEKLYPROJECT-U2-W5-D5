@@ -85,9 +85,9 @@ nav {
   margin-top: 3em;
 }
 /******************ARTICLE-TOP************************/
-article {
+#article-1 {
   width: 100%;
-  border-bottom: 1px solid black;
+  border: 1px solid black;
 }
 #article-top {
   margin: 0 16em;
@@ -159,4 +159,33 @@ article {
 
 .container {
   margin-right: 2em;
+}
+
+/**********************ARTICLE-BOTTOM*********************************/
+
+.article-bottom-1 {
+  display: flex;
+  margin: 4em 17.5em;
+}
+
+.img-span {
+  width: 28em;
+}
+
+.img-span img {
+  border-radius: 100%;
+  width: 1.3em;
+}
+
+.img-span span {
+  font-weight: 450;
+  font-size: 0.8em;
+}
+
+.img-span p {
+  margin: 0.7em 0;
+}
+
+.img-article {
+  width: 12em;
 }
