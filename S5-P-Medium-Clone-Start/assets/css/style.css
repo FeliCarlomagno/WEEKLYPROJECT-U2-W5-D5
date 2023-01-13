@@ -8,6 +8,8 @@ nav {
   display: flex;
   justify-content: space-around;
   background-color: #ffc017;
+  position: sticky;
+  top: 30px;
 }
 
 .nav-img-container {
@@ -30,7 +32,12 @@ nav {
   justify-content: space-evenly;
 }
 
-.button-ul {
+.ul-container li a {
+  text-decoration: none;
+  color: black;
+}
+
+#button-ul a {
   background-color: black;
   color: white;
   height: 0.5em;
@@ -40,4 +47,41 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/*MAIN*/
+.sup-main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffc017;
+  border-top: 1px solid black;
+}
+.text-container-sup-main {
+  background-color: #ffc017;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 17em;
+}
+
+.text-container-sup-main h2 {
+  font-size: 6.5em;
+  margin-bottom: 30px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+}
+
+.text-container-sup-main p {
+  font-size: 1.5em;
+  width: 445px;
+}
+
+.text-container-sup-main button {
+  background-color: black;
+  color: white;
+  width: 17em;
+  height: 3em;
+  border-radius: 50px;
+  margin-top: 3em;
 }
