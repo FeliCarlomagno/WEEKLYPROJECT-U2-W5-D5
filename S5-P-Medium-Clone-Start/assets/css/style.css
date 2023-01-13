@@ -163,6 +163,7 @@ nav {
 
 /**********************ARTICLE-BOTTOM*********************************/
 
+/*********ARTICLE-1****************/
 .article-bottom-1 {
   display: flex;
   margin: 4em 17.5em;
@@ -188,4 +189,6 @@ nav {
 
 .img-article {
   width: 12em;
+  margin-left: 2em;
 }
+/***************************************************/
