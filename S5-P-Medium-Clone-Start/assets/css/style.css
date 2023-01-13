@@ -84,8 +84,18 @@ nav {
   border-radius: 50px;
   margin-top: 3em;
 }
+/******************ARTICLE-TOP************************/
+article {
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+#article-top {
+  margin: 0 16em;
+}
 
-#top-sup {
+/****************TOP-SUP***********************/
+#top-sup,
+#top-bottom {
   display: flex;
   justify-content: space-evenly;
 }
@@ -100,12 +110,12 @@ nav {
 .top-sup-left img,
 .top-sup-bottom img {
   border-radius: 100%;
-  width: 2em;
+  width: 1.3em;
 }
 
 .top-sup-right img {
   border-radius: 10%;
-  width: 2em;
+  width: 1.3em;
 }
 
 .top-sup-left p,
@@ -124,6 +134,7 @@ nav {
 
 .img-span-container span {
   font-weight: 450;
+  font-size: 0.8em;
 }
 
 .img-span-container p {
@@ -139,5 +150,13 @@ nav {
   font-size: 2em;
   color: #80808052;
   font-weight: bold;
-  margin-right: 1em;
+  margin-right: 0.5em;
+}
+
+.p-article-top-container {
+  margin-left: 1em;
+}
+
+.container {
+  margin-right: 2em;
 }
