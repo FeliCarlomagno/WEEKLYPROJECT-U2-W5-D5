@@ -84,3 +84,21 @@ nav {
   border-radius: 50px;
   margin-top: 3em;
 }
+
+.top-left-top {
+  display: flex;
+}
+
+.top-left-top img {
+  border-radius: 100%;
+  width: 2em;
+}
+
+.img-span-container {
+  display: flex;
+  align-items: center;
+}
+
+.img-span-container img {
+  margin-right: 10px;
+}
