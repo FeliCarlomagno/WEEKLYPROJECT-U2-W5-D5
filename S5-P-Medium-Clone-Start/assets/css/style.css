@@ -195,3 +195,41 @@ nav {
 /***************************************************/
 
 /**********************************ARTICLE-2************************************/
+.bottom-sup {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  max-width: 23em;
+}
+
+#article-bottom-right h5 {
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.div {
+  padding: 5px;
+  border: 1px solid gray;
+  margin: 2px;
+}
+
+.works3,
+.work6,
+.work8,
+.works2,
+.works1 {
+  width: 6em;
+}
+
+.works4,
+.work7 {
+  width: 8em;
+}
+
+.work5 {
+  width: 4em;
+}
+
+.work9 {
+  width: 3.5em;
+}
