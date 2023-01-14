@@ -195,11 +195,22 @@ nav {
 /***************************************************/
 
 /**********************************ARTICLE-2************************************/
+
+#article-2 {
+  display: flex;
+}
+
+#article-2-container {
+  width: 61em;
+}
 .bottom-sup {
   display: flex;
   width: 100%;
   flex-wrap: wrap;
   max-width: 23em;
+}
+#article-bottom-right {
+  margin-top: 4em;
 }
 
 #article-bottom-right h5 {
@@ -232,4 +243,22 @@ nav {
 
 .work9 {
   width: 3.5em;
+}
+
+.bottom-sub {
+  margin: 2em 0;
+  border-top: 1px solid black;
+  padding-top: 2em;
+}
+.bottom-sub ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  width: 30em;
+  height: 2em;
+}
+
+.bottom-sub ul li {
+  margin-right: 1em;
+  margin-bottom: 0.5em;
 }
