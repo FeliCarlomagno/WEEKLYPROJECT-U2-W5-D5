@@ -191,6 +191,57 @@ nav {
   margin-left: 2em;
   height: 100%;
 }
+
+.p-gray {
+  color: gray;
+}
+
+.p-smaller {
+  font-size: 0.8em;
+}
+
+.border-gray {
+  border-radius: 15px;
+  margin-left: 5px;
+  padding: 2px 5px;
+  background-color: rgba(128, 128, 128, 0.116);
+}
+
+.star-svg {
+  position: relative;
+  top: 4px;
+  left: 1px;
+}
+
+.bookmark-logo {
+  position: relative;
+  top: 3px;
+  left: 147px;
+}
+
+.bookmark-logo-adjust1 {
+  position: relative;
+  top: 3px;
+  left: 124px;
+}
+
+.bookmark-logo-adjust2 {
+  position: relative;
+  top: 3px;
+  left: 83px;
+}
+
+.bookmark-logo-adjust3 {
+  position: relative;
+  top: 3px;
+  left: 83px;
+}
+.bookmark-logo-adjust4 {
+  position: relative;
+  top: 3px;
+  left: 165px;
+}
+
 /***************************************************/
 
 /**********************************ARTICLE-2************************************/
@@ -202,6 +253,7 @@ nav {
 #article-2-container {
   width: 61em;
 }
+
 .bottom-sup {
   display: flex;
   width: 100%;
@@ -219,8 +271,9 @@ nav {
 
 .div {
   padding: 5px;
-  border: 1px solid gray;
+  border: 1px solid #80808069;
   margin: 2px;
+  color: rgb(128 128 128);
 }
 
 .works3,
@@ -260,4 +313,5 @@ nav {
 .bottom-sub ul li {
   margin-right: 1em;
   margin-bottom: 0.5em;
+  color: rgb(128 128 128);
 }
